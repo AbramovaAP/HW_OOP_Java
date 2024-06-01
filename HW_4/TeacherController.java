@@ -16,12 +16,12 @@ public class TeacherController {
 
     }
 
-
+ 
 
     public void createTeacher(String name, int age, String subject) {
 
         Teacher teacher = new Teacher(name, age, subject);
-
+ 
         teacherService.addTeacher(teacher);
 
     }

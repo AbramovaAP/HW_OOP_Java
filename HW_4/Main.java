@@ -12,8 +12,8 @@ public class Main {
         teacherController.editTeacher(1, "Bob", 27, "Physics");
       
         teacherController.showAllTeachers();
-
-    }
+ 
+    } 
     
 
 }

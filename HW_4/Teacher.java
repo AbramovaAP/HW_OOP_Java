@@ -17,9 +17,9 @@ public class Teacher {
     public void setName(String name) {
         this.name = name;
     }
-
+ 
     public Integer getAge() {
-        return age;
+        return age; 
     }
 
     public void setSecondName(int age) {

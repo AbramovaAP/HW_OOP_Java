@@ -16,14 +16,14 @@ public class TeacherService {
 
     }
 
-
+ 
 
     public void addTeacher(Teacher teacher) {
 
         teachers.add(teacher);
 
     }
-
+ 
 
 
     public void editTeacher(int index, Teacher teacher) {
