@@ -9,6 +9,7 @@ import HW_7.services.Logger;
 
 public class Main {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
 
         ComplexNumber num1 = new ComplexNumber(2.0, 5.0); // число №1 для ввода, введите свое число.
